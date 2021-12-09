@@ -26,12 +26,7 @@ pip install -r requirements.txt
 pip install -r requirements_gpu.txt
 conda install psutil
 ```
-4. Download initial data set used in experiments. 
-```
-ivadomed_download_data -d data_example_spinegeneric
-```
-5. Copy-paste the data set folder and rename it. Change the names in dummy_scale.py and run it to generate a data set with N samples; N must be indicated within the script (for 
-now).
+4 (Optional). To create your own data set, run dummy_scale to fill a directory with dummy samples to use during experimentation.
 ```
 python dummy_scale.py
 ```
