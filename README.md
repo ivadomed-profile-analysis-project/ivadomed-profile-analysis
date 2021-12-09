@@ -30,7 +30,8 @@ conda install psutil
 ```
 ivadomed_download_data -d data_example_spinegeneric
 ```
-5. Copy-paste the data set folder and rename it. Change the names in dummy_scale.py and run it to generate a 10x data set.
+5. Copy-paste the data set folder and rename it. Change the names in dummy_scale.py and run it to generate a data set with N samples; N must be indicated within the script (for 
+now).
 ```
 python dummy_scale.py
 ```
